@@ -11,12 +11,13 @@ public class Main {
         StringBuffer word = null;
 
         switch (random.nextInt(3)) {
-            break; case 0:
+                    case 0:
                 word = new StringBuffer("Y");
             break; case 1:
                 word = new StringBuffer("F");
             break; case 2:
                 word = new StringBuffer("T");
+                break; 
         }
 
         word.append('o');
