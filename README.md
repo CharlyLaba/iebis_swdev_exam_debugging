@@ -11,6 +11,7 @@ It should be replaced by 3 since there are 3 cases, not 2.
 ```
 switch (random.nextInt(3)) {
 ```
+
 ## Bug 2
 
 ```
@@ -22,7 +23,7 @@ switch (random.nextInt(3)) {
                 word = new StringBuffer('T');
 ``` 
                 
-> The letters should be in double quotation since they are literal Strings s and not literal Char s 
+The letters should be in double quotation since they are literal Strings s and not literal Char s 
 
 ```
                    case 0:
